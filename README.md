@@ -29,7 +29,7 @@ This project is a decentralized voting system built on the Internet Computer usi
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/web3-voting-system.git
+git clone https://github.com/mbyotwo2/web3-voting-system.git
 cd web3-voting-system
 
 2. Install dependencies:
