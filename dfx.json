@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "web3-voting-system-backend": {
+      "main": "src/web3-voting-system-backend/main.mo",
+      "type": "motoko"
+    },
+    "web3-voting-system-frontend": {
+      "dependencies": [
+        "web3-voting-system-backend"
+      ],
+      "source": [
+        "src/web3-voting-system-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "web3-voting-system-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
