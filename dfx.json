@@ -1,0 +1,35 @@
+{
+    "canisters": {
+      "web3_voting_system_backend": {
+        "main": "src/web3_voting_system_backend/main.mo",
+        "type": "motoko"
+      },
+      "web3_voting_system_frontend": {
+        "dependencies": [
+          "web3_voting_system_backend"
+        ],
+        "frontend": {
+          "entrypoint": "src/web3_voting_system_frontend/src/index.html"
+        },
+        "source": [
+          "src/web3_voting_system_frontend/assets",
+          "dist/web3_voting_system_frontend/"
+        ],
+        "type": "assets"
+      }
+    },
+    "defaults": {
+      "build": {
+        "args": "",
+        "packtool": ""
+      }
+    },
+    "dfx": "0.9.3",
+    "networks": {
+      "local": {
+        "bind": "127.0.0.1:8000",
+        "type": "ephemeral"
+      }
+    },
+    "version": 1
+  }
