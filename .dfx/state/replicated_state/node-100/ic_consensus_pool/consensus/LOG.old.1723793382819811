@@ -1,0 +1,103 @@
+2024/08/16-09:26:09.928614 71c26a2e8cc0 RocksDB version: 6.17.0
+2024/08/16-09:26:09.928738 71c26a2e8cc0 Git sha 0
+2024/08/16-09:26:09.928817 71c26a2e8cc0 DB SUMMARY
+2024/08/16-09:26:09.928821 71c26a2e8cc0 DB Session ID:  UWY1GUA7R2EMULQ94020
+2024/08/16-09:26:09.928949 71c26a2e8cc0 CURRENT file:  CURRENT
+2024/08/16-09:26:09.928954 71c26a2e8cc0 IDENTITY file:  IDENTITY
+2024/08/16-09:26:09.928961 71c26a2e8cc0 MANIFEST file:  MANIFEST-000003 size: 3987 Bytes
+2024/08/16-09:26:09.928965 71c26a2e8cc0 SST files in /home/mb/Desktop/web3-voting-system-1/.dfx/state/replicated_state/node-100/ic_consensus_pool/consensus dir, Total Num: 11, files: 000033.sst 000036.sst 000038.sst 000041.sst 000043.sst 000045.sst 000048.sst 000050.sst 000052.sst 
+2024/08/16-09:26:09.928967 71c26a2e8cc0 Write Ahead Log file in /home/mb/Desktop/web3-voting-system-1/.dfx/state/replicated_state/node-100/ic_consensus_pool/consensus: 000004.log size: 343233 ; 000031.log size: 2342 ; 000034.log size: 2342 ; 000039.log size: 2342 ; 000046.log size: 2342 ; 000053.log size: 8964304 ; 
+2024/08/16-09:26:09.928970 71c26a2e8cc0                         Options.error_if_exists: 0
+2024/08/16-09:26:09.928973 71c26a2e8cc0                       Options.create_if_missing: 1
+2024/08/16-09:26:09.928975 71c26a2e8cc0                         Options.paranoid_checks: 1
+2024/08/16-09:26:09.928977 71c26a2e8cc0                               Options.track_and_verify_wals_in_manifest: 0
+2024/08/16-09:26:09.928979 71c26a2e8cc0                                     Options.env: 0x5b89040b2380
+2024/08/16-09:26:09.928981 71c26a2e8cc0                                      Options.fs: Posix File System
+2024/08/16-09:26:09.928983 71c26a2e8cc0                                Options.info_log: 0x5b893f36ae60
+2024/08/16-09:26:09.928985 71c26a2e8cc0                Options.max_file_opening_threads: 16
+2024/08/16-09:26:09.928987 71c26a2e8cc0                              Options.statistics: (nil)
+2024/08/16-09:26:09.928989 71c26a2e8cc0                               Options.use_fsync: 1
+2024/08/16-09:26:09.928991 71c26a2e8cc0                       Options.max_log_file_size: 0
+2024/08/16-09:26:09.928992 71c26a2e8cc0                  Options.max_manifest_file_size: 1073741824
+2024/08/16-09:26:09.928994 71c26a2e8cc0                   Options.log_file_time_to_roll: 0
+2024/08/16-09:26:09.928996 71c26a2e8cc0                       Options.keep_log_file_num: 1000
+2024/08/16-09:26:09.928998 71c26a2e8cc0                    Options.recycle_log_file_num: 0
+2024/08/16-09:26:09.929000 71c26a2e8cc0                         Options.allow_fallocate: 1
+2024/08/16-09:26:09.929002 71c26a2e8cc0                        Options.allow_mmap_reads: 0
+2024/08/16-09:26:09.929004 71c26a2e8cc0                       Options.allow_mmap_writes: 0
+2024/08/16-09:26:09.929005 71c26a2e8cc0                        Options.use_direct_reads: 0
+2024/08/16-09:26:09.929007 71c26a2e8cc0                        Options.use_direct_io_for_flush_and_compaction: 0
+2024/08/16-09:26:09.929009 71c26a2e8cc0          Options.create_missing_column_families: 1
+2024/08/16-09:26:09.929011 71c26a2e8cc0                              Options.db_log_dir: 
+2024/08/16-09:26:09.929013 71c26a2e8cc0                                 Options.wal_dir: /home/mb/Desktop/web3-voting-system-1/.dfx/state/replicated_state/node-100/ic_consensus_pool/consensus
+2024/08/16-09:26:09.929015 71c26a2e8cc0                Options.table_cache_numshardbits: 6
+2024/08/16-09:26:09.929017 71c26a2e8cc0                         Options.WAL_ttl_seconds: 0
+2024/08/16-09:26:09.929019 71c26a2e8cc0                       Options.WAL_size_limit_MB: 0
+2024/08/16-09:26:09.929020 71c26a2e8cc0                        Options.max_write_batch_group_size_bytes: 1048576
+2024/08/16-09:26:09.929022 71c26a2e8cc0             Options.manifest_preallocation_size: 4194304
+2024/08/16-09:26:09.929024 71c26a2e8cc0                     Options.is_fd_close_on_exec: 1
+2024/08/16-09:26:09.929026 71c26a2e8cc0                   Options.advise_random_on_open: 1
+2024/08/16-09:26:09.929028 71c26a2e8cc0                    Options.db_write_buffer_size: 0
+2024/08/16-09:26:09.929030 71c26a2e8cc0                    Options.write_buffer_manager: 0x5b893f36afa0
+2024/08/16-09:26:09.929051 71c26a2e8cc0         Options.access_hint_on_compaction_start: 1
+2024/08/16-09:26:09.929053 71c26a2e8cc0  Options.new_table_reader_for_compaction_inputs: 0
+2024/08/16-09:26:09.929055 71c26a2e8cc0           Options.random_access_max_buffer_size: 1048576
+2024/08/16-09:26:09.929057 71c26a2e8cc0                      Options.use_adaptive_mutex: 0
+2024/08/16-09:26:09.929059 71c26a2e8cc0                            Options.rate_limiter: (nil)
+2024/08/16-09:26:09.929062 71c26a2e8cc0     Options.sst_file_manager.rate_bytes_per_sec: 0
+2024/08/16-09:26:09.929064 71c26a2e8cc0                       Options.wal_recovery_mode: 2
+2024/08/16-09:26:09.929065 71c26a2e8cc0                  Options.enable_thread_tracking: 0
+2024/08/16-09:26:09.929067 71c26a2e8cc0                  Options.enable_pipelined_write: 0
+2024/08/16-09:26:09.929069 71c26a2e8cc0                  Options.unordered_write: 0
+2024/08/16-09:26:09.929071 71c26a2e8cc0         Options.allow_concurrent_memtable_write: 1
+2024/08/16-09:26:09.929073 71c26a2e8cc0      Options.enable_write_thread_adaptive_yield: 1
+2024/08/16-09:26:09.929074 71c26a2e8cc0             Options.write_thread_max_yield_usec: 100
+2024/08/16-09:26:09.929076 71c26a2e8cc0            Options.write_thread_slow_yield_usec: 3
+2024/08/16-09:26:09.929078 71c26a2e8cc0                               Options.row_cache: None
+2024/08/16-09:26:09.929080 71c26a2e8cc0                              Options.wal_filter: None
+2024/08/16-09:26:09.929083 71c26a2e8cc0             Options.avoid_flush_during_recovery: 0
+2024/08/16-09:26:09.929084 71c26a2e8cc0             Options.allow_ingest_behind: 0
+2024/08/16-09:26:09.929086 71c26a2e8cc0             Options.preserve_deletes: 0
+2024/08/16-09:26:09.929088 71c26a2e8cc0             Options.two_write_queues: 0
+2024/08/16-09:26:09.929090 71c26a2e8cc0             Options.manual_wal_flush: 0
+2024/08/16-09:26:09.929092 71c26a2e8cc0             Options.atomic_flush: 0
+2024/08/16-09:26:09.929093 71c26a2e8cc0             Options.avoid_unnecessary_blocking_io: 0
+2024/08/16-09:26:09.929095 71c26a2e8cc0                 Options.persist_stats_to_disk: 0
+2024/08/16-09:26:09.929097 71c26a2e8cc0                 Options.write_dbid_to_manifest: 0
+2024/08/16-09:26:09.929099 71c26a2e8cc0                 Options.log_readahead_size: 0
+2024/08/16-09:26:09.929101 71c26a2e8cc0                 Options.file_checksum_gen_factory: Unknown
+2024/08/16-09:26:09.929103 71c26a2e8cc0                 Options.best_efforts_recovery: 0
+2024/08/16-09:26:09.929105 71c26a2e8cc0                Options.max_bgerror_resume_count: 2147483647
+2024/08/16-09:26:09.929107 71c26a2e8cc0            Options.bgerror_resume_retry_interval: 1000000
+2024/08/16-09:26:09.929109 71c26a2e8cc0             Options.allow_data_in_errors: 0
+2024/08/16-09:26:09.929110 71c26a2e8cc0             Options.db_host_id: __hostname__
+2024/08/16-09:26:09.929112 71c26a2e8cc0             Options.max_background_jobs: 2
+2024/08/16-09:26:09.929114 71c26a2e8cc0             Options.max_background_compactions: -1
+2024/08/16-09:26:09.929116 71c26a2e8cc0             Options.max_subcompactions: 1
+2024/08/16-09:26:09.929118 71c26a2e8cc0             Options.avoid_flush_during_shutdown: 0
+2024/08/16-09:26:09.929120 71c26a2e8cc0           Options.writable_file_max_buffer_size: 1048576
+2024/08/16-09:26:09.929122 71c26a2e8cc0             Options.delayed_write_rate : 16777216
+2024/08/16-09:26:09.929123 71c26a2e8cc0             Options.max_total_wal_size: 0
+2024/08/16-09:26:09.929125 71c26a2e8cc0             Options.delete_obsolete_files_period_micros: 21600000000
+2024/08/16-09:26:09.929127 71c26a2e8cc0                   Options.stats_dump_period_sec: 600
+2024/08/16-09:26:09.929129 71c26a2e8cc0                 Options.stats_persist_period_sec: 600
+2024/08/16-09:26:09.929131 71c26a2e8cc0                 Options.stats_history_buffer_size: 1048576
+2024/08/16-09:26:09.929133 71c26a2e8cc0                          Options.max_open_files: -1
+2024/08/16-09:26:09.929135 71c26a2e8cc0                          Options.bytes_per_sync: 0
+2024/08/16-09:26:09.929144 71c26a2e8cc0                      Options.wal_bytes_per_sync: 0
+2024/08/16-09:26:09.929146 71c26a2e8cc0                   Options.strict_bytes_per_sync: 0
+2024/08/16-09:26:09.929148 71c26a2e8cc0       Options.compaction_readahead_size: 0
+2024/08/16-09:26:09.929149 71c26a2e8cc0                  Options.max_background_flushes: -1
+2024/08/16-09:26:09.929151 71c26a2e8cc0 Compression algorithms supported:
+2024/08/16-09:26:09.929154 71c26a2e8cc0 	kZSTDNotFinalCompression supported: 1
+2024/08/16-09:26:09.929164 71c26a2e8cc0 	kZSTD supported: 1
+2024/08/16-09:26:09.929167 71c26a2e8cc0 	kXpressCompression supported: 0
+2024/08/16-09:26:09.929169 71c26a2e8cc0 	kLZ4HCCompression supported: 1
+2024/08/16-09:26:09.929171 71c26a2e8cc0 	kLZ4Compression supported: 1
+2024/08/16-09:26:09.929173 71c26a2e8cc0 	kBZip2Compression supported: 1
+2024/08/16-09:26:09.929175 71c26a2e8cc0 	kZlibCompression supported: 1
+2024/08/16-09:26:09.929177 71c26a2e8cc0 	kSnappyCompression supported: 1
+2024/08/16-09:26:09.929181 71c26a2e8cc0 Fast CRC32 supported: Supported on x86
+2024/08/16-09:26:09.929287 71c26a2e8cc0 [WARN] [db/db_impl/db_impl_open.cc:1792] Persisting Option File error: OK
+2024/08/16-09:26:09.929301 71c26a2e8cc0 [db/db_impl/db_impl.cc:460] Shutdown: canceling all background work
+2024/08/16-09:26:09.929318 71c26a2e8cc0 [db/db_impl/db_impl.cc:639] Shutdown complete
