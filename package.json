@@ -17,8 +17,8 @@
     "internet-computer",
     "web3"
   ],
-  "author": "Your Name",
-  "license": "MIT",
+  "author": "Team Two",
+  "license": "CC0 1.0 Universal",
   "dependencies": {
     "@dfinity/agent": "^0.11.3",
     "@dfinity/auth-client": "^0.11.3",
