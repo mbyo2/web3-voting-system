@@ -66,7 +66,7 @@ By implementing this system, we aim to enhance democratic processes, increase tr
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/web3-voting-system.git
+   git clone https://github.com/mbyo2/web3-voting-system.git
    cd web3-voting-system
    ```
 
