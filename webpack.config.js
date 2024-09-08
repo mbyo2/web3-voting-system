@@ -37,7 +37,7 @@ const asset_entry = path.join(
   "src",
   "web3_voting_system_frontend",
   "src",
-  "index.html"
+  "index.jsx"
 );
 
 module.exports = {
